@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "net_api": "Substrate.NodeTemplate.NET.NetApiExt",
+    "net_integration": "Substrate.NodeTemplate.NET.Integration",
+    "rest_service": "Substrate.NodeTemplate.NET.RestService",
+    "rest_client": "Substrate.NodeTemplate.NET.RestClient"
+  },
+   "metadata": {
+      "websocket": "ws://127.0.0.1:9944"
+   },
+  "rest_client_settings": {
+    "service_assembly": "Substrate.NodeTemplate.NET.RestService.dll"
+  }
+}
